@@ -1,0 +1,150 @@
+nav{
+    width: 100%;
+    display: block;
+    padding-bottom: 0px;
+    background-color: whitesmoke;
+}
+
+nav h1{
+    margin-left: 20px;
+    display: inline;
+  
+}
+nav ul{
+    display: inline;
+   float: right;
+}
+
+ul.right li{
+    display: inline;
+    align-items: center;
+    margin-right: 15px;
+}
+
+ul.right a{
+    text-decoration-line: none;
+    color: black;
+    transition: 2s all;
+}
+ul.right a:hover{
+    color: grey;
+}
+
+.btn{
+    font-size: 1em;
+    padding: 12px;
+    border-radius: 5px;
+    background: #053e57;
+    color: #ffffff;
+    border: 0;
+    margin-left: 30px;
+}
+
+/*##body##*/
+.text{
+    width: 100%;
+    background-color: #3399ff;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+    padding-bottom: 2%;
+    font-size: 1.125rem;
+}
+
+.text h1{
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+/*-----*/
+.container{
+    width: 70%;
+    background-color: white;
+    margin-left: 15%;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: -30px;
+    padding: 15px;
+    display: table;
+}
+.container .column{
+    width: 33.33%;
+     float:left;
+    
+}
+
+.container .column .imgs{
+    width: 90%;
+    height: 120px;
+    border-radius: 5px;
+    background: rgba(51,153,255,0.1);
+    margin-right: 30px;
+    
+}
+
+.container .column h4{
+    margin-left: 8%;
+}
+
+
+.some{
+    width: 63%;
+    margin-top: 120px;
+
+    margin-left: 18.8%;
+}
+
+.some p,h1{
+    align-content: center;
+        line-height: 1.2;
+    font-family: sans-serif;
+}
+
+.some h1{
+    font-size: 3rem;
+    
+}
+.some p{
+    width: 100%;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: initial;
+}
+
+.pg{
+    width: 100%;
+    background-color: #3399ff;
+    margin-top: 200px;
+    padding-bottom: 25px;
+     /*box-shadow: 0px 20px 20px 0px #85c2ff;*/  
+}
+
+.pg img{
+    margin-left: 18.8%;
+    margin-top: -150px;
+}
+
+.pg p{
+    margin-left: 42%;
+    font-family: Nunito,sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: #053e57;
+    padding-bottom: 10px;
+    color: white;
+  
+}
+
+.footer p{
+    margin-left: 43%;
+      align-content: center;
+    
+}
